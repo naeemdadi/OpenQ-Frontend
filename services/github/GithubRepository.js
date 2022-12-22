@@ -24,7 +24,7 @@ import { setContext } from '@apollo/client/link/context';
 class GithubRepository {
   constructor() {}
 
-	uri = process.env.OPENQ_API_SSR_URL ? process.env.OPENQ_API_SSR_URL : process.env.NEXT_PUBLIC_OPENQ_API_URL;
+	uri = process.env.GITHUB_PROXY_SSR_URL ? process.env.GITHUB_PROXY_SSR_URL : process.env.NEXT_PUBLIC_GITHUB_PROXY_URL;
 
   httpLink = new HttpLink({
     uri: this.uri,
@@ -38,7 +38,7 @@ class GithubRepository {
   });
 
   setGraphqlHeaders = (oauthToken) => {
-    if (oauthToken == null) {
+    if (oauthToken !== null) {
       let authLink = setContext((_, { headers }) => {
         return {
           headers: {

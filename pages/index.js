@@ -155,6 +155,7 @@ export const getServerSideProps = async (context) => {
   const cookies = nookies.get(context);
   const { github_oauth_token_unsigned } = cookies;
   const oauthToken = github_oauth_token_unsigned ? github_oauth_token_unsigned : null;
+	console.log('oauthToken', oauthToken)
   githubRepository.instance.setGraphqlHeaders(oauthToken);
 
   const openQSubgraphClient = new WrappedOpenQSubgraphClient();
