@@ -3082,10 +3082,10 @@
     bs58 "^5.0.0"
     uuid "^8.3.2"
 
-"@kycdao/kycdao-sdk@^0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@kycdao/kycdao-sdk/-/kycdao-sdk-0.5.4.tgz#429c0815775d711ae2c3dce92f39996206b72758"
-  integrity sha512-Qw0e6a4ra53Uow80flGwBR8GcUC/vH/fOfXwUo7DUoCj1UU8b/nN3H8kNjREycjg+w7X6QsopClPY5EG2MKajg==
+"@kycdao/kycdao-sdk@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@kycdao/kycdao-sdk/-/kycdao-sdk-0.6.0.tgz#cd07a90307601fa8ba0c7b9219b21a4635c368f1"
+  integrity sha512-GvvA8PLBvUFMy32+eHqLLr/cbFN8IGA+ihdzDS4nTN5ypiyfHaD7vZCVGhCwjModI7x/hlBbEbsnV2F4u+Wiog==
   dependencies:
     "@solana/wallet-adapter-base" "^0.9.18"
     "@solana/wallet-adapter-wallets" "^0.19.3"
@@ -3093,16 +3093,16 @@
     bn.js "^5.2.1"
     bs58 "^5.0.0"
 
-"@kycdao/widget@0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@kycdao/widget/-/widget-0.4.1.tgz#2534535ff0e476df53d07de0c8bbb963b6412f9a"
-  integrity sha512-zRUytjeV9nmlguYqWnEuD+MAMfmzqBubpYdYUcOeCriZ1PA+vWxgw0X5xkzCIWF36IROz2D+sYvkhXHS4Tyrzg==
+"@kycdao/widget@0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@kycdao/widget/-/widget-0.4.3.tgz#3d169d8cec782c30a5e40cc81d2be5aa16c36755"
+  integrity sha512-pnPcWZ7LyyPyqwtYMCfbCRSp+JPSWte3mx9X4wl7ypb86Y0L2DSjUmLygcYjmEYuU2Z5KyzBiG6TWDmoXjwX2g==
   dependencies:
-    "@kycdao/kycdao-sdk" "^0.5.4"
+    "@kycdao/kycdao-sdk" "^0.6.0"
     buffer "^6.0.3"
     clsx "^1.2.1"
     near-api-js "0.44.2"
-    persona "^4.7.1"
+    persona "^4.7.2"
     react-error-boundary "^3.1.4"
     react-scripts "^5.0.1"
     react-swipeable "^7.0.0"
@@ -15361,10 +15361,10 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==
 
-persona@^4.7.1:
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/persona/-/persona-4.7.1.tgz#9192903f1a3ae90255e95e55a283f8318a8c3144"
-  integrity sha512-va5S0ffBMugNIyjtlJs4Eo/kN0kO8TbDarBLIzvRJ2bcr98YkxHZAIz8IEHwddLRZjlpl2n7yIwT1UknMGHGmQ==
+persona@^4.7.2:
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/persona/-/persona-4.7.2.tgz#91eb9972bf03dd055e9893d84a3d17fcc6e1ee24"
+  integrity sha512-mqBFDMYd02kdhYML0l64DuCZSqGg1D4/er/Ejj+UGdW5N2QL2CqtQO/irU6mMJmTA0404xAgM4MwJ6gyjSjzqA==
   dependencies:
     core-js "^3.0.0"
     lodash "^4.17.21"
